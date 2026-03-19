@@ -1,21 +1,19 @@
-MIT License
-
 Copyright (c) 2026 Rubén A. Lecona Curto (R@LC)
+ORCID: 0009-0008-4935-9010
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Licencia de Reproducibilidad Científica
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Se permite:
+- Ejecutar este código para verificar los resultados del paper
+- Citarlo en trabajos académicos con atribución al autor
+- Estudiar el código con fines educativos
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Se prohíbe sin autorización expresa del autor:
+- Modificación y redistribución de versiones derivadas
+- Uso comercial o implementación en productos o servicios
+- Integración en sistemas de navegación, telecomunicaciones,
+  computación cuántica o cualquier sistema de procesamiento
+
+El método analítico subyacente (Bisturí TIE v2.0) está sujeto
+a proceso de registro de patente ante el IMPI (Exp. MX/a/2026/003397).
+Todos los derechos reservados sobre dicho método.

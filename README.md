@@ -5,7 +5,7 @@ Test Cuantitativo sobre el Catálogo SPARC — 135 Galaxias — Cero Parámetros
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--4935--9010-A6CE39?logo=orcid)](https://orcid.org/0009-0008-4935-9010)
 [![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18851408-blue)](https://zenodo.org/records/18851408)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Reproducibilidad_Científica-orange.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 
 ---
@@ -25,7 +25,6 @@ Script Python unificado que replica exactamente los tres módulos de análisis d
 ---
 
 ## Ecuaciones TIE (cero parámetros libres)
-
 ```
 a₀     = c · H₀ / 2π = 1.082 × 10⁻¹⁰ m/s²   (derivado, no ajustado)
 v_flat = (G · M_bar · a₀)^(1/4)               (velocidad plana asintótica)
@@ -48,7 +47,6 @@ a_TIE  = √(a_bar · (a_bar + a₀))              (predicción RAR)
 ---
 
 ## Instalación
-
 ```bash
 git clone https://github.com/RALC-TIE-CREATOR/TIE-SPARC-Analysis.git
 cd TIE-SPARC-Analysis
@@ -64,73 +62,69 @@ Descargar el catálogo SPARC:
 ---
 
 ## Uso
-
 ```bash
-# Análisis completo (H-20 + H-06)
+# Análisis completo
 python TIE_SPARC_Analysis.py --sparc Title_SPARC__I__Mass_Models_for_175.txt
 
 # Con gráficas
-python TIE_SPARC_Analysis.py --sparc <archivo> --plot
+python TIE_SPARC_Analysis.py --sparc  --plot
 
 # Solo alta calidad Q=1
-python TIE_SPARC_Analysis.py --sparc <archivo> --quality 1
+python TIE_SPARC_Analysis.py --sparc  --quality 1
 
 # Con tabla detallada H-02 por galaxia
-python TIE_SPARC_Analysis.py --sparc <archivo> --sparc-detail
+python TIE_SPARC_Analysis.py --sparc  --sparc-detail
 
-# Todo junto con gráficas en carpeta específica
-python TIE_SPARC_Analysis.py --sparc <archivo> --plot --outdir ./figuras/
+# Con gráficas en carpeta específica
+python TIE_SPARC_Analysis.py --sparc  --plot --outdir ./figuras/
 ```
 
 ---
 
 ## Salida
 
-El script genera automáticamente tres figuras:
-
 | Archivo | Contenido |
 |---------|-----------|
-| `TIE_H02_H20_vflat.png` | v_TIE predicha vs v_obs observada (muestra completa + Q=1) |
-| `TIE_H20_residuals.png` | Histograma de residuos log₁₀(v_TIE/v_obs) con gaussiana ajustada |
-| `TIE_H06_RAR.png` | Relación de Aceleración Radial a_obs vs a_bar con curva TIE |
+| `TIE_H02_H20_vflat.png` | v_TIE predicha vs v_obs observada |
+| `TIE_H20_residuals.png` | Histograma de residuos con gaussiana |
+| `TIE_H06_RAR.png` | Relación de Aceleración Radial |
 
 ---
 
 ## Datos
 
 **Catálogo SPARC:**  
-Lelli, F., McGaugh, S.S. & Schombert, J.M. (2016). *SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves*. AJ, 152, 157.  
+Lelli, F., McGaugh, S.S. & Schombert, J.M. (2016). AJ, 152, 157.  
 → http://astroweb.cwru.edu/SPARC/
 
-**Nota:** El archivo del catálogo no está incluido en este repositorio por derechos de distribución. Descárgalo directamente desde la URL oficial.
+**Nota:** El catálogo no está incluido en este repositorio. Descárgalo desde la URL oficial.
 
 ---
 
 ## Reproducibilidad
 
-Este script es la fuente de verdad de los resultados publicados en:
-
-> Lecona, R. (R@LC). (2026). *A Quantitative Test of the Spatial Infrastructure Theory (TIE) Against the SPARC Catalogue: Zero Free Parameters and Galactic Rotation Curves*. Zenodo. DOI: [10.5281/zenodo.18851408](https://zenodo.org/records/18851408)
+> Lecona, R. (R@LC). (2026). *A Quantitative Test of the Spatial Infrastructure Theory (TIE) Against the SPARC Catalogue*. Zenodo. DOI: [10.5281/zenodo.18851408](https://zenodo.org/records/18851408)
 
 Los números del paper (RMS=29.3, σ=0.0854, N=135) son reproducibles ejecutando:
 ```bash
-python TIE_SPARC_Analysis.py --sparc <archivo>
+python TIE_SPARC_Analysis.py --sparc 
 ```
 
 ---
 
 ## Marco teórico
 
-TIE es un tratado completo desarrollado por R@LC. La derivación formal de las ecuaciones, el Lagrangiano y los postulados se encuentran en:
-
-- **Tratado completo (Zenodo DOI):** https://zenodo.org/records/18851408  
-- **Herramientas interactivas:** https://ralc-tie-creator.github.io  
+- **Tratado completo (DOI):** https://zenodo.org/records/18851408
+- **Herramientas interactivas:** https://ralc-tie-creator.github.io
 
 ---
 
 ## Licencia
 
-MIT License — libre uso, modificación y distribución con atribución.
+Licencia de Reproducibilidad Científica. Se permite ejecutar y citar con atribución.
+Queda prohibido el uso comercial sin autorización expresa del autor.
+El método analítico subyacente (Bisturí TIE) está sujeto a proceso de patente.
+Ver [LICENSE](LICENSE) para detalles.
 
 ---
 

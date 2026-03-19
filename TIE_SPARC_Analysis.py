@@ -219,6 +219,8 @@ def module_rms(galaxies, q_filter=None):
     rms         = np.sqrt(np.mean(diff**2))
     bias        = np.mean(diff)
     log_ratio   = np.log10(v_tie / v_obs)
+    # ddof=1: desviación estándar muestral (N-1) — estándar para muestras observacionales
+    # ddof=0 daría 0.0850 (poblacional); ddof=1 da 0.0854 (muestral, el correcto)
     sigma_dex   = np.std(log_ratio, ddof=1)
     chi2        = np.sum((diff / e_obs)**2)
     chi2r       = chi2 / (N - 1)

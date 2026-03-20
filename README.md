@@ -123,7 +123,7 @@ python TIE_SPARC_Analysis.py --sparc <archivo>
 
 TIE es un tratado completo desarrollado por R@LC. La derivación formal de las ecuaciones, el Lagrangiano y los postulados se encuentran en:
 
-- **Tratado completo (Amazon): https://www.amazon.com/dp/B0GR2113JR
+- **Tratado completo (Amazon): https://www.amazon.com/dp/B0GR2113JR (Español) y https://www.amazon.co.uk/dp/B0GT8MNQ4F (Ingles)
 - **Herramientas interactivas:** https://ralc-tie-creator.github.io  
 
 ---

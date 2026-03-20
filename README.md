@@ -4,7 +4,7 @@
 Test Cuantitativo sobre el Catálogo SPARC — 135 Galaxias — Cero Parámetros Libres
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--4935--9010-A6CE39?logo=orcid)](https://orcid.org/0009-0008-4935-9010)
-[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18851408-blue)](https://zenodo.org/records/18851408)
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19120085-blue)](https://zenodo.org/records/19120085)
 [![License](https://img.shields.io/badge/License-Reproducibilidad_Científica-orange.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
 
@@ -42,7 +42,7 @@ a_TIE  = √(a_bar · (a_bar + a₀))              (predicción RAR)
 | ΛCDM NFW | 2/galaxia | 35.0 | 0.101 | Ajuste de referencia |
 | Newton puro | 0 | 185.5 | 0.175 | ✗ Falsificado |
 
-**Submuestra Q=1 (87 galaxias de alta calidad):** σ_dex = 0.0589 dex
+**Submuestra Q=1 (87 galaxias de alta calidad):** σ_dex = 0.0593 dex
 
 ---
 
@@ -103,7 +103,7 @@ Lelli, F., McGaugh, S.S. & Schombert, J.M. (2016). AJ, 152, 157.
 
 ## Reproducibilidad
 
-> Lecona, R. (R@LC). (2026). *A Quantitative Test of the Spatial Infrastructure Theory (TIE) Against the SPARC Catalogue*. Zenodo. DOI: [10.5281/zenodo.18851408](https://zenodo.org/records/18851408)
+> Lecona, R. (R@LC). (2026). *A Quantitative Test of the Spatial Infrastructure Theory (TIE) Against the SPARC Catalogue*. Zenodo. DOI: [10.5281/zenodo.19120085](https://zenodo.org/records/19120085)
 
 Los números del paper (RMS=29.3, σ=0.0854, N=135) son reproducibles ejecutando:
 ```bash
@@ -114,7 +114,7 @@ python TIE_SPARC_Analysis.py --sparc
 
 ## Marco teórico
 
-- **Tratado completo (DOI):** https://zenodo.org/records/18851408
+- **Tratado completo (Amazon):** https://www.amazon.com/dp/B0GR2113JR
 - **Herramientas interactivas:** https://ralc-tie-creator.github.io
 
 ---

@@ -1,19 +1,55 @@
-Copyright (c) 2026 Rubén A. Lecona Curto (R@LC)
+SCIENTIFIC REPRODUCIBILITY LICENSE
+==================================
+
+Copyright (c) 2026 Rubén Antonio Lecona Curto (R@LC)
+Independent Researcher, México
 ORCID: 0009-0008-4935-9010
 
-Licencia de Reproducibilidad Científica
+TERMS AND CONDITIONS
+--------------------
 
-Se permite:
-- Ejecutar este código para verificar los resultados del paper
-- Citarlo en trabajos académicos con atribución al autor
-- Estudiar el código con fines educativos
+1. PERMITTED USES
+   - Execute the code for scientific verification and reproducibility.
+   - Cite the work in academic publications with proper attribution.
+   - Use the results for educational purposes.
+   - Reference the methodology in comparative studies.
 
-Se prohíbe sin autorización expresa del autor:
-- Modificación y redistribución de versiones derivadas
-- Uso comercial o implementación en productos o servicios
-- Integración en sistemas de navegación, telecomunicaciones,
-  computación cuántica o cualquier sistema de procesamiento
+2. REQUIRED ATTRIBUTION
+   Any use of this work must include:
+   - Full citation of the paper (see CITATION.cff).
+   - Reference to the TIE Treatise: DOI 10.5281/zenodo.18851408.
+   - The author's name and ORCID.
 
-El método analítico subyacente (Bisturí TIE v2.0) está sujeto
-a proceso de registro de patente ante el IMPI (Exp. MX/a/2026/003397).
-Todos los derechos reservados sobre dicho método.
+3. PROHIBITED USES
+   Without express written authorization from the author:
+   - Commercial use or incorporation into commercial products.
+   - Redistribution of modified or derived versions.
+   - Use of the analytical method (Bisturí TIE) in proprietary software.
+   - Claiming authorship or co-authorship of the theoretical framework.
+
+4. PATENT NOTICE
+   The underlying analytical method known as "Bisturí TIE" (TIE Scalpel),
+   including the systematic identification and removal of artificial T²
+   factors in physical equations, is subject to a patent registration
+   process. This license does not grant any patent rights.
+
+5. DATA AND OBSERVATIONAL VALUES
+   Planck 2018 values and SPARC catalogue data are property of their
+   respective collaborations and are included here solely for
+   reproducibility of the analysis.
+
+6. NO WARRANTY
+   This work is provided "as is" without warranty of any kind, express
+   or implied. The author is not liable for any damages arising from
+   the use of this work.
+
+7. TERMINATION
+   This license terminates automatically if any of the above conditions
+   are violated.
+
+CONTACT
+-------
+For commercial licensing, collaboration, or inquiries:
+Email: ralc007@hotmail.com
+Web: https://ralc-tie-creator.github.io
+

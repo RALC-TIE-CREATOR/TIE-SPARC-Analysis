@@ -1,4 +1,4 @@
-# TIE Dark Matter Analysis
+# TIE Dark Matter Analysis 
  
 **Theory of Spatial Infrastructure (TIE)**  
 Dark Matter as a Missing Factor of 2π — 84.1% Fraction — Zero Free Parameters

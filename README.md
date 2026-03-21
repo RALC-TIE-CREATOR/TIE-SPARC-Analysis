@@ -4,7 +4,7 @@
 Dark Matter as a Missing Factor of 2π — 84.1% Fraction — Zero Free Parameters
  
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--4935--9010-A6CE39?logo=orcid)](https://orcid.org/0009-0008-4935-9010)
-[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.XXXXXXX-blue)](https://zenodo.org/records/XXXXXXX)
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19120084-blue)](https://zenodo.org/records/XXXXXXX)
 [![License](https://img.shields.io/badge/License-Scientific_Reproducibility-orange.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://www.python.org/)
  
@@ -140,7 +140,7 @@ TIE's dark matter prediction is falsifiable under four conditions:
 |---|---|---|
 | TIE Treatise (Book) | [10.5281/zenodo.18851408](https://doi.org/10.5281/zenodo.18851408) | Complete theory — 13 chapters, 16 predictions |
 | SPARC Quantitative Test | [10.5281/zenodo.19120085](https://doi.org/10.5281/zenodo.19120085) | 135 galaxies, σ=0.085 dex, BIC>1300 vs ΛCDM |
-| **This paper** | [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) | Dark matter = missing factor of 2π |
+| **This paper** | [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.19120084) | Dark matter = missing factor of 2π |
  
 ---
  
@@ -148,7 +148,7 @@ TIE's dark matter prediction is falsifiable under four conditions:
  
 This code is the source of truth for the results published in:
  
-> Lecona, R. (R@LC). (2026). *Dark Matter as a Missing Factor of 2π: A Zero-Parameter Derivation from TIE*. Zenodo. DOI: [10.5281/zenodo.XXXXXXX](https://zenodo.org/records/XXXXXXX)
+> Lecona, R. (R@LC). (2026). *Dark Matter as a Missing Factor of 2π: A Zero-Parameter Derivation from TIE*. Zenodo. DOI: [10.5281/zenodo.XXXXXXX](https://zenodo.org/records/19143650)
  
 All numbers in the paper are reproducible by running:
 ```bash

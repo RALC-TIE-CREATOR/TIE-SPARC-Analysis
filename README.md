@@ -138,7 +138,7 @@ TIE's dark matter prediction is falsifiable under four conditions:
  
 | Paper | DOI | Description |
 |---|---|---|
-| TIE Treatise (Book) | [10.5281/zenodo.18851408](https://doi.org/10.5281/zenodo.18851408) | Complete theory — 13 chapters, 16 predictions |
+| TIE Treatise (Book) | [R@LC: Theory of Spatial Infrastructure (TIE): Unification of the Four Fundamental Forces through Elimination of Artificial T2 and Zero Free Parameters](https://www.amazon.co.uk/dp/B0GT8MNQ4F) | Complete theory — 13 chapters, 16 predictions |
 | SPARC Quantitative Test | [10.5281/zenodo.19120085](https://doi.org/10.5281/zenodo.19120085) | 135 galaxies, σ=0.085 dex, BIC>1300 vs ΛCDM |
 | **This paper** | [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.19120084) | Dark matter = missing factor of 2π |
  
